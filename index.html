@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- ===============================================-->
+        <!--    Document Title-->
+        <!-- ===============================================-->
+        <title>TaskBotique</title>
+
+        <!-- ===============================================-->
+        <!--    Favicons-->
+        <!-- ===============================================-->
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="assets/img/favicons/favicon.png"
+        />
+        <link rel="manifest" href="assets/img/favicons/manifest.json" />
+        <meta
+            name="msapplication-TileImage"
+            content="assets/img/favicons/mstile-150x150.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- ===============================================-->
+        <!--    Stylesheets-->
+        <!-- ===============================================-->
+        <link href="assets/css/theme.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- ===============================================-->
+        <!--    Main Content-->
+        <!-- ===============================================-->
+        <main class="main" id="top">
+            <nav
+                class="navbar navbar-expand-lg navbar-light sticky-top"
+                data-navbar-on-scroll="data-navbar-on-scroll"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">TaskBotique</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#validation"
+                                    >À propos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#feature"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#blog"
+                                    >Blog</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section class="pt-7">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-start text-center py-6">
+                            <h1 class="mb-4 fs-9 fw-bold">
+                                Automatisation Intelligente avec l’IA et les
+                                Robots
+                            </h1>
+                            <p class="mb-6 lead text-secondary">
+                                Optimisez vos tâches avec des solutions
+                                automatisées basées sur l’intelligence
+                                artificielle et la robotique. Améliorez
+                                l'efficacité, réduisez les erreurs et accélérez
+                                vos processus grâce à des technologies avancées.
+                            </p>
+                            <div class="text-center text-md-start">
+                                <a
+                                    class="btn btn-warning me-3 btn-lg"
+                                    href="#footer"
+                                    role="button"
+                                >
+                                    Commencer
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-md-start text-center py-6">
+                            <img
+                                style="width: 100%"
+                                src="assets/img/hero/hero-img.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5 pt-md-9 mb-6" id="feature">
+                <div
+                    class="bg-holder z-index--1 bottom-0 d-none d-lg-block"
+                    style="
+                        background-image: url(assets/img/category/shape.png);
+                        opacity: 0.5;
+                    "
+                ></div>
+                <!--/.bg-holder-->
+
+                <div class="container">
+                    <h1 class="fs-9 fw-bold mb-4 text-center">
+                        Solutions Innovantes pour l’Automatisation et l’IA
+                    </h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 mb-2">
+                            <img
+                                class="mb-3 ms-n3"
+                                src="assets/img/category/icon1.png"
+                                width="75"
+                                alt="Feature"
+                            />
+                            <h4 class="mb-3">Optimisation des Processus</h4>
+                            <p class="mb-0 fw-medium text-secondary">
+                                Automatisez vos flux de travail et réduisez les
+                                erreurs humaines grâce à l'IA.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-2">
+                            <img
+                                class="mb-3 ms-n3"
+                                src="assets/img/category/icon2.png"
+                                width="75"
+                                alt="Feature"
+                            />
+                            <h4 class="mb-3">Solutions Intelligentes</h4>
+                            <p class="mb-0 fw-medium text-secondary">
+                                Déploiement de systèmes robotiques avancés pour
+                                améliorer l’efficacité opérationnelle.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-2">
+                            <img
+                                class="mb-3 ms-n3"
+                                src="assets/img/category/icon3.png"
+                                width="75"
+                                alt="Feature"
+                            />
+                            <h4 class="mb-3">Assistance IA</h4>
+                            <p class="mb-0 fw-medium text-secondary">
+                                Utilisez l’intelligence artificielle pour
+                                automatiser les prises de décision et optimiser
+                                les tâches complexes.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-2">
+                            <img
+                                class="mb-3 ms-n3"
+                                src="assets/img/category/icon4.png"
+                                width="75"
+                                alt="Feature"
+                            />
+                            <h4 class="mb-3">Automatisation Robotique</h4>
+                            <p class="mb-0 fw-medium text-secondary">
+                                Intégrez des robots intelligents pour simplifier
+                                et accélérer vos processus métier.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5" id="validation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5 class="text-secondary">
+                                Validation Avancée pour
+                            </h5>
+                            <h2 class="mb-2 fs-7 fw-bold">
+                                Projets d’Automatisation et IA
+                            </h2>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Garantissez la performance et la fiabilité de
+                                vos solutions d’automatisation avec une
+                                validation experte et des stratégies avancées.
+                            </p>
+                            <h4 class="fs-1 fw-bold">
+                                Évaluation des Performances
+                            </h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Nos experts analysent l’efficacité des systèmes
+                                d’automatisation et d’IA pour maximiser vos
+                                résultats.
+                            </p>
+                            <h4 class="fs-1 fw-bold">
+                                Stratégies d'Optimisation
+                            </h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Nous vous accompagnons dans l’intégration de
+                                solutions intelligentes adaptées à votre
+                                activité.
+                            </p>
+                            <h4 class="fs-1 fw-bold">
+                                Intégration de l'IA et des Robots
+                            </h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Exploitez la puissance de l’automatisation et
+                                des robots pour une efficacité accrue et une
+                                gestion simplifiée des processus.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/validation/validation.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5" id="manager">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/manager/manager.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-lg-6">
+                            <h5 class="text-secondary">
+                                Décisions Intelligentes pour
+                            </h5>
+                            <p class="fs-7 fw-bold mb-2">
+                                L'Optimisation avec l'IA et les Robots
+                            </p>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Profitez d’une assistance avancée en
+                                automatisation, évaluation des performances et
+                                amélioration des processus grâce à l’IA.
+                            </p>
+                            <div class="d-flex align-items-center mb-3">
+                                <img
+                                    class="me-sm-4 me-2"
+                                    src="assets/img/manager/tick.png"
+                                    width="35"
+                                    alt="tick"
+                                />
+                                <p class="fw-medium mb-0 text-secondary">
+                                    Analyse approfondie pour une automatisation
+                                    efficace et évolutive.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img
+                                    class="me-sm-4 me-2"
+                                    src="assets/img/manager/tick.png"
+                                    width="35"
+                                    alt="tick"
+                                />
+                                <p class="fw-medium mb-0 text-secondary">
+                                    Solutions intelligentes adaptées aux besoins
+                                    spécifiques d'automatisation.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img
+                                    class="me-sm-4 me-2"
+                                    src="assets/img/manager/tick.png"
+                                    width="35"
+                                    alt="tick"
+                                />
+                                <p class="fw-medium mb-0 text-secondary">
+                                    Restez à jour sur les dernières avancées en
+                                    IA et robotique.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5" id="marketer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5 class="text-secondary">
+                                Solutions Avancées pour
+                            </h5>
+                            <p class="mb-2 fs-8 fw-bold">
+                                L’Automatisation des Processus
+                            </p>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Maximisez l'efficacité de votre entreprise avec
+                                des stratégies d'IA et de robotique de pointe.
+                            </p>
+                            <h4 class="fw-bold fs-1">
+                                Optimisation de la Performance
+                            </h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Nos experts vous accompagnent dans
+                                l’automatisation des tâches et l’amélioration
+                                des flux de travail.
+                            </p>
+                            <h4 class="fw-bold fs-1">Stratégies Rentables</h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Réduisez les coûts tout en améliorant la
+                                productivité et la fiabilité avec des solutions
+                                adaptées.
+                            </p>
+                            <h4 class="fw-bold fs-1">
+                                Innovations Technologiques
+                            </h4>
+                            <p class="mb-4 fw-medium text-secondary">
+                                Exploitez les dernières avancées en IA et en
+                                robotique pour une automatisation optimisée et
+                                évolutive.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/marketer/marketer.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="py-md-11 py-8" id="superhero">
+                <div
+                    class="bg-holder z-index--1 bottom-0 d-none d-lg-block background-position-top"
+                    style="
+                        background-image: url(assets/img/superhero/oval.png);
+                        opacity: 0.5;
+                        background-position: top !important ;
+                    "
+                ></div>
+                <!--/.bg-holder-->
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h1 class="fw-bold mb-4 fs-7">
+                                Besoin d'un expert ?
+                            </h1>
+                            <p class="mb-5 text-info fw-medium">
+                                Vous recherchez des conseils professionnels pour
+                                automatiser vos processus avec l'IA et les
+                                robots ? Nous offrons une expertise avancée en
+                                optimisation et intégration intelligente.
+                            </p>
+                            <a href="#footer">
+                                <button class="btn btn-warning btn-md">
+                                    Contactez notre expert
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5" id="blog">
+                <div class="container">
+                    <h1 class="fw-bold fs-6 mb-3">Automatisation et IA</h1>
+                    <p class="mb-6 text-secondary">
+                        Découvrez des stratégies et analyses expertes pour
+                        optimiser vos processus avec l'intelligence artificielle
+                        et la robotique.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img
+                                    class="card-img-top"
+                                    src="assets/img/marketing/marketing01.jpg"
+                                    alt=""
+                                />
+                                <div class="card-body ps-0">
+                                    <p class="text-secondary">
+                                        Par
+                                        <a
+                                            class="fw-bold text-decoration-none me-1"
+                                            href="#"
+                                            >Adam R.</a
+                                        >|
+                                        <span class="ms-1">03 Mars 2024</span>
+                                    </p>
+                                    <h3 class="fw-bold">
+                                        Maximiser l'efficacité des systèmes
+                                        automatisés
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img
+                                    class="card-img-top"
+                                    src="assets/img/marketing/marketing02.jpg"
+                                    alt=""
+                                />
+                                <div class="card-body ps-0">
+                                    <p class="text-secondary">
+                                        Par
+                                        <a
+                                            class="fw-bold text-decoration-none me-1"
+                                            href="#"
+                                            >Liza F.</a
+                                        >|
+                                        <span class="ms-1"
+                                            >03 Janvier 2025</span
+                                        >
+                                    </p>
+                                    <h3 class="fw-bold">
+                                        Facteurs clés pour une automatisation
+                                        réussie
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img
+                                    class="card-img-top"
+                                    src="assets/img/marketing/marketing03.jpg"
+                                    alt=""
+                                />
+                                <div class="card-body ps-0">
+                                    <p class="text-secondary">
+                                        Par
+                                        <a
+                                            class="fw-bold text-decoration-none me-1"
+                                            href="#"
+                                            >Max E.</a
+                                        >|
+                                        <span class="ms-1">03 Avril 2024</span>
+                                    </p>
+                                    <h3 class="fw-bold">
+                                        Accélération de la croissance avec l'IA
+                                        et les robots
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5" id="contact">
+                <div class="container">
+                    <h1 class="fw-bold fs-6 mb-3">Contactez-nous</h1>
+                    <p class="mb-6 text-secondary">
+                        Besoin d'informations sur l'automatisation et l'IA ?
+                        Remplissez le formulaire ci-dessous, et notre équipe
+                        vous répondra rapidement.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <form action="thanks.html" method="post">
+                                <div class="mb-3">
+                                    <label class="form-label" for="name"
+                                        >Nom</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="email"
+                                        >E-mail</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="message"
+                                        >Message</label
+                                    >
+                                    <textarea
+                                        class="form-control"
+                                        id="message"
+                                        name="message"
+                                        rows="4"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="submit">
+                                    Envoyer
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.3611950890795!2d2.3083185006505844!3d48.88225776211375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc76ecc874d%3A0xd493f574a633d506!2sInter%20Invest!5e0!3m2!1suk!2sua!4v1741064504277!5m2!1suk!2sua"
+                                width="100%"
+                                height="300"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pb-2 pb-lg-5" id="footer">
+                <div class="container">
+                    <div class="row border-top border-top-secondary pt-7">
+                        <div
+                            class="col-lg-3 col-md-6 mb-4 mb-md-6 mb-lg-0 mb-sm-2 order-1 order-md-1 order-lg-1"
+                        >
+                            <h3>TaskBotique</h3>
+                            <a href="mailto:task_botique@gmail.com"
+                                >task_botique@gmail.com</a
+                            >
+                            <p style="margin-top: 20px">
+                                21 Rue Fortuny, 75017 Paris, France
+                            </p>
+                            <p>+33156620055</p>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-3 order-md-3 order-lg-2"
+                        >
+                            <p class="fs-2 mb-lg-4">Liens Rapides</p>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a
+                                        class="link-900 text-secondary text-decoration-none"
+                                        href="index.html#validation"
+                                        >À propos de nous</a
+                                    >
+                                </li>
+                                <li class="mb-1">
+                                    <a
+                                        class="link-900 text-secondary text-decoration-none"
+                                        href="index.html#blog"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li class="mb-1">
+                                    <a
+                                        class="link-900 text-secondary text-decoration-none"
+                                        href="index.html#footer"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-4 order-md-4 order-lg-3"
+                        >
+                            <p class="fs-2 mb-lg-4">Ressources IA</p>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a
+                                        class="link-900 text-secondary text-decoration-none"
+                                        href="privacy-policy.html"
+                                        >Optimisation IA</a
+                                    >
+                                </li>
+                                <li class="mb-1">
+                                    <a
+                                        class="link-900 text-secondary text-decoration-none"
+                                        href="terms-of-use.html"
+                                        >Automatisation avancée</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0 order-2 order-md-2 order-lg-4"
+                        >
+                            <p class="fs-2 mb-lg-4">
+                                Restez informé des dernières avancées en
+                                automatisation et IA.
+                            </p>
+                            <form
+                                class="mb-3"
+                                action="thanks.html"
+                                method="get"
+                            >
+                                <input
+                                    class="form-control"
+                                    type="email"
+                                    placeholder="Entrez votre numéro de téléphone"
+                                    aria-label="phone"
+                                    required
+                                />
+                                <button
+                                    class="btn btn-warning fw-medium py-1 mt-3"
+                                    type="submit"
+                                >
+                                    S'inscrire maintenant
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+        </main>
+        <!-- ===============================================-->
+        <!--    End of Main Content-->
+        <!-- ===============================================-->
+
+        <!-- Bannière de cookies -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Politique des Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ce site web utilise des cookies pour optimiser l'expérience
+                    utilisateur. Les cookies sont des fichiers stockés sur votre
+                    appareil, améliorant la fonctionnalité du site et collectant
+                    des données anonymes pour l'analyse des performances. En
+                    continuant à naviguer, vous acceptez l'utilisation des
+                    cookies en accord avec notre politique.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accepter</button>
+                <button class="cookie-button" id="declineBtn">Refuser</button>
+            </div>
+        </div>
+        <!-- Fin de la bannière de cookies -->
+
+        <!-- ===============================================-->
+        <!--    JavaScripts-->
+        <!-- ===============================================-->
+        <script src="vendors/@popperjs/popper.min.js"></script>
+        <script src="vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="vendors/is/is.min.js"></script>
+
+        <script src="vendors/fontawesome/all.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
+            rel="stylesheet"
+        />
+    </body>
+</html>
